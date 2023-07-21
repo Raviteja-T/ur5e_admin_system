@@ -1,0 +1,8 @@
+prefix=/home/toor/catkin_ws/install
+
+Name: rt_work_description
+Description: Description of rt_work_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

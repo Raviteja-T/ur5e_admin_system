@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/toor/catkin_ws/src/aruco_markers/src/detect_marker.cpp
+opencv2/opencv.hpp
+-
+opencv2/aruco.hpp
+-
+
