@@ -76,6 +76,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/easy_handeye/launch" TYPE FILE FILES
     "/home/toor/catkin_ws/src/easy_handeye/easy_handeye/launch/calibrate.launch"
     "/home/toor/catkin_ws/src/easy_handeye/easy_handeye/launch/publish.launch"
+    "/home/toor/catkin_ws/src/easy_handeye/easy_handeye/launch/ur5e_realsense_calibration.launch"
     "/home/toor/catkin_ws/src/easy_handeye/easy_handeye/launch/rqt_easy_handeye.perspective"
     "/home/toor/catkin_ws/src/easy_handeye/easy_handeye/launch/rviz_easy_handeye.config"
     )

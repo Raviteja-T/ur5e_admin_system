@@ -303,6 +303,21 @@ moveit_calibration/moveit_calibration_plugins/handeye_calibration_solver/CMakeFi
  /usr/include/python2.7/methodobject.h
  /usr/include/python2.7/modsupport.h
  /usr/include/python2.7/moduleobject.h
+ /usr/include/python2.7/numpy/__multiarray_api.h
+ /usr/include/python2.7/numpy/_neighborhood_iterator_imp.h
+ /usr/include/python2.7/numpy/_numpyconfig.h
+ /usr/include/python2.7/numpy/arrayobject.h
+ /usr/include/python2.7/numpy/ndarrayobject.h
+ /usr/include/python2.7/numpy/ndarraytypes.h
+ /usr/include/python2.7/numpy/noprefix.h
+ /usr/include/python2.7/numpy/npy_1_7_deprecated_api.h
+ /usr/include/python2.7/numpy/npy_common.h
+ /usr/include/python2.7/numpy/npy_cpu.h
+ /usr/include/python2.7/numpy/npy_endian.h
+ /usr/include/python2.7/numpy/npy_interrupt.h
+ /usr/include/python2.7/numpy/numpyconfig.h
+ /usr/include/python2.7/numpy/old_defines.h
+ /usr/include/python2.7/numpy/utils.h
  /usr/include/python2.7/object.h
  /usr/include/python2.7/objimpl.h
  /usr/include/python2.7/patchlevel.h

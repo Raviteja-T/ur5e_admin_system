@@ -3,7 +3,7 @@
     <arg name="eye_on_hand" default="false" />
 
     <arg name="camera_namespace" default="/camera/color" />
-    <arg name="robot_ip" doc="The IP address of the UR5e robot" default="192.168.12.254" />
+    <arg name="robot_ip" doc="The IP address of the UR5e robot" default="192.168.12.2" />
 
     <arg name="marker_size" doc="Size of the ArUco marker used, in meters" default="0.045" />
     <arg name="square_size" doc="The ID of the ArUco marker used" default="24" />
@@ -22,15 +22,13 @@
     	<remap from="/camera_info" to="/camera/color/camera_info" />
         <remap from="/image" to="/camera/color/image_raw" />
         <param name="object_type" value="charuco_board" />
-
- 	<param name="image_is_rectified" value="True"/>
+ 	    <param name="image_is_rectified" value="True"/>
         <param name="marker_size"        value="$(arg marker_size)"/>
         <param name="marker_id"          value="$(arg marker_id)"/>
         <param name="reference_frame"    value="camera_color_optical_frame"/>   <!-- frame in which the marker pose will be refered -->
         <param name="camera_frame"       value="camera_color_optical_frame"/>
         <param name="marker_frame"       value="camera_marker" />
         <param name="corner_refinement"  value="LINES" />
-    </node>
     </node>
 
     <!-- start the robot (using https://github.com/UniversalRobots/Universal_Robots_ROS_Driver) -->

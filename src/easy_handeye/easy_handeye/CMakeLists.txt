@@ -18,6 +18,7 @@ catkin_install_python(PROGRAMS
 install(FILES
     launch/calibrate.launch
     launch/publish.launch
+    launch/ur5e_realsense_calibration.launch
     launch/rqt_${PROJECT_NAME}.perspective
     launch/rviz_${PROJECT_NAME}.config
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
